@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto Three.js</title>
+    <style>
+        body { margin: 0; overflow: hidden; }
+        canvas { display: block; }
+        .controls {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+        .texture-select {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="controls">
+        <h2>Controles</h2>
+        <table id="controlsTable"></table>
+        <h2>Texturas</h2>
+        <div class="texture-selects">
+            <div class="texture-select">
+                <label for="textureSelect0">Cara 0:</label>
+                <select id="textureSelect0"></select>
+            </div>
+            <div class="texture-select">
+                <label for="textureSelect1">Cara 1:</label>
+                <select id="textureSelect1"></select>
+            </div>
+            <div class="texture-select">
+                <label for="textureSelect2">Cara 2:</label>
+                <select id="textureSelect2"></select>
+            </div>
+            <div class="texture-select">
+                <label for="textureSelect3">Cara 3:</label>
+                <select id="textureSelect3"></select>
+            </div>
+            <div class="texture-select">
+                <label for="textureSelect4">Cara 4:</label>
+                <select id="textureSelect4"></select>
+            </div>
+            <div class="texture-select">
+                <label for="textureSelect5">Cara 5:</label>
+                <select id="textureSelect5"></select>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
