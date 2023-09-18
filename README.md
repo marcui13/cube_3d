@@ -29,7 +29,7 @@ Cube:3D is a basic 3D cube project created with Three.js, a popular JavaScript l
 
 ## Demo
 
-You can try the live demo of Cube:3D [here](#insert-demo-link).
+You can try the live demo of Cube:3D [here](https://cube-3d-omega.vercel.app/).
 
 ## Getting Started
 
